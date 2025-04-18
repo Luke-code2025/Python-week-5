@@ -47,3 +47,7 @@ class Boat(Vehicle):
     def move(self):
         print("Sailing")
 
+for vehicle in [Car(), Plane(), Boat()]:
+    print(vehicle.move)
+for animal in [Dog(), Bird(), Fish()]:
+    print(animal.move)
