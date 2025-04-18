@@ -21,15 +21,15 @@ class Animal:
 
 class Dog(Animal):
     def move(self):
-        print("Running 🐕")
+        print("Running")
 
 class Bird(Animal):
     def move(self):
-        print("Flying 🐦")
+        print("Flying")
 
 class Fish(Animal):
     def move(self):
-        print("Swimming 🐠")
+        print("Swimming")
 
 class Vehicle:
     def move(self):
@@ -37,13 +37,13 @@ class Vehicle:
 
 class Car(Vehicle):
     def move(self):
-        print("Driving 🚗")
+        print("Driving")
 
 class Plane(Vehicle):
     def move(self):
-        print("Flying ✈️")
+        print("Flying")
 
 class Boat(Vehicle):
     def move(self):
-        print("Sailing 🚢")
+        print("Sailing")
 
